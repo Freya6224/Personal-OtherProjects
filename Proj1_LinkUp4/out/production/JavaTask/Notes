@@ -1,0 +1,195 @@
+ /*
+Finish by the mid-feb:
+
+Currently I am trying to make my graphic game into more like a logic more than a hardcoding ---> so I made a virtual game which manipulates from the
+graphical game. So right now I am working on checking the winner and letting the user know.
+
+    * Steps:
+    -check if the string is the same which cannot be implemented with the get method because it wont compare the value
+
+    - Progress:
+      -Created the win for the virtual game and which I think will work so
+
+--> how to get the index of the value
+
+Next Task by March:
+
+1. Have to start different format player vs computer --> which involves all the components just like in player vs player
+
+// practice and the code that I started with
+
+    public static class gameClass
+    {
+        private static final String[][] board;
+
+        static
+        {
+            board = new String[3][3];
+        }
+
+
+        // display Board.
+        char board()
+        {
+            board[0][0] = " ";
+            board[0][1] = " ";
+            board[0][2] = " ";
+            board[1][0] = " ";
+            board[1][1] = " ";
+            board[1][2] = " ";
+            board[2][0] = " ";
+            board[2][1] = " ";
+            board[2][2] = " ";
+
+            for (int i = 0; i < board.length; i++)
+            {
+                for (int a = 0; a < 3; a++)
+                {
+                    if(a == 2)
+                    {
+                        System.out.print(" " + board[i][a]);
+                        System.out.println("");
+                    }
+                    else
+                    {
+                        System.out.print(" " + board[i][a] + " |");
+                        System.out.print("");
+                    }
+                }
+                if(i == 2)
+                {
+                    System.out.print("");
+                }
+                else
+                {
+                    System.out.println("---|---|---");
+                }
+            }
+
+            return 0;
+        }
+
+        // Update Board
+        char updateBoard()
+        {
+            for (int i = 0; i < board.length; i++)
+            {
+                for (int a = 0; a < 3; a++)
+                {
+                    if(a == 2)
+                    {
+                        System.out.print(" " + board[i][a]);
+                        System.out.println("");
+                    }
+                    else
+                    {
+                        System.out.print(" " + board[i][a] + " |");
+                        System.out.print("");
+                    }
+                }
+                if(i == 2)
+                {
+                    System.out.print("");
+                }
+                else
+                {
+                    System.out.println("---|---|---");
+                }
+            }
+            return 0;
+        }
+
+        void movement()
+        {
+            // To do next time - search or learn about the constructor and method like in depth
+            //like what it does and how is it used and what is the difference between it.
+            //*
+
+
+             //-watch telusko video - take notes
+             //-make plan on movements in book
+             //*
+
+            int turns = 9;
+
+            Scanner input = new Scanner(System.in);
+
+            String player2 = "";
+            System.out.print("Player1: enter  X or O:");
+            String player1 = input.nextLine();
+
+            if (player1.equals("X") || player1.equals("x"))
+            {
+                player2 = "O";
+                System.out.println("Player 2 has: " + player2);
+
+            } else if (player1.equals("O"))
+            {
+                player2 = "X";
+                System.out.println("Player 2 has: " + player2);
+            }
+
+
+            for(int i = 0; i < turns; i++)
+            {
+                System.out.print("Enter your column (top to bottom): ");
+                int col = input.nextInt();
+
+                System.out.print("Enter your row (left to right): ");
+                int row = input.nextInt();
+
+                if(i % 2 == 0)
+                {
+                    board[col-1][row-1] = player1;
+                }
+
+                else if(i % 2 != 0)
+                {
+                    board[col-1][row-1] = player2;
+                }
+
+                while(col > 3 || col <1)
+                {
+                    System.out.println("Reenter col: ");
+                    col = input.nextInt();
+                }
+
+                while(row > 3 || row <1)
+                {
+                    System.out.println("Reenter row: ");
+                    row = input.nextInt();
+                }
+
+                if(row <= 3 && col <=3)
+                {
+                    //board[col-1][row-1] = letter1;
+                    //System.out.println("Board is " + board[col-1][row-1]);
+                    System.out.print(updateBoard());
+                }
+
+            }
+            System.out.println("Play again?");
+        }
+
+        void winner()
+        {
+
+        }
+    }
+
+    public static class game
+    {
+        public static void main(String[] args)
+        {
+            char[][] board = new char[4][4];
+
+            gameClass play = new gameClass();
+
+            System.out.println("Welcome to the game ");
+            System.out.print(play.board());
+
+            play.movement();
+            play.winner();
+
+        }
+    }*/

@@ -1,0 +1,20 @@
+ /*
+Finish by the mid-feb:
+
+Currently I am trying to make my graphic game into more like a logic more than a hardcoding ---> so I made a virtual game which manipulates from the
+graphical game. So right now I am working on checking the winner and letting the user know.
+
+    * Steps:
+    -check if the string is the same which cannot be implemented with the get method because it wont compare the value
+
+    - Progress:
+      -Created the win for the virtual game and which I think will work so
+
+--> how to get the index of the value
+
+Next Task by March:
+
+1. Have to start different format player vs computer --> which involves all the components just like in player vs player
+
+
+    */
