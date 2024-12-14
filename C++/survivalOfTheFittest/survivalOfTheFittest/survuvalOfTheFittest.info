@@ -1,0 +1,23 @@
+/************************************************************************
+*                                                                       *
+*                                                                       *
+* Name: Freya Modi                         CLASS: CSC122-W01            *
+*                                                                       *
+*                                                                       *
+*                                                                       *
+* Lab: "Data=Value"                          Activity Level:  4         *
+*                                  Option Common interfaces:  +2        *
+*                                            Total         :  6         *
+*                                                                       *
+*   Description:                                                        *
+*                                                                       *
+*                                                                       *
+*   This is lab is about using the concept of inheritance and           *
+*   polymorphism to create a hiearchy where a abstract class            *
+*   (livingBeing) is being inherited by creature which gets inherited   *
+*   predator and prey class. Where the user is asked to enter number of *
+*   predators and preys so that it can be stored into a vector. Than    *
+*   would use that user created data to stimulate them until the number *
+*   of generations/preys/predators are not equal to 0.                  *
+*                                                                       *
+* * * * * * * * * * * * * * ** * * * * * * * * ** * * * * ** *** ** * * */

@@ -1,0 +1,91 @@
+Thought Provoking Questions
+
+1. How many hierarchies do you have? Why?
+
+- There is one hierarchy because
+    in this where creature is hierarchly
+    inherited from livingBeing and
+    predator and prey are hierarchly
+    inhertied from creature.
+
+2.How many classes are in the hierarchy(ies)?
+How many levels does this hierarchy(ies) have?
+
+- I have four classes in my project. There are
+    three levels where livingbeing is a base
+    (abstract class), creature is inherited
+    from livingBeing and also an super class
+    for prey and predators (sub class).
+    
+3. What members did you make protected? Private?
+
+- All members in creature class are protected
+    and members in prey and predator are
+    private.
+
+4. What kind of inheritance mode(s) did you use
+for your inheritance?
+
+- I used a public inheritance mode to user my
+    inheritance.
+
+5. Have you used any composition? Or is your
+entire program dependant on inheritance?
+
+- No I haven't used any composition; my entire
+    program is dependent on inheritance.
+    
+6. How many arrays do you have to hold your
+simulation's population? How 'weildy' is this?
+
+- I have used a vector of Creature in the main
+    that holds all the population. Its valid
+    enough because it easily allows to add new
+    object into it with specific type (prey or
+    predator), can dynamiclly resize and it is
+    efficient as well.
+    
+7. What sort of initial counts cause predators to
+reign? Prey? A stable population (not by
+code -- by inspection)?
+
+- If the predator have higher birthrates and
+    able to procreate more and than counts
+    of them is higher than prey would cause
+    predators to reign. Also if predators
+    have more speed than can attack more preys.
+    If there are more prey and have higher birthrates
+    than can proreate more. If there is a number
+    of predators who attack and number of preys whom
+    are able to escape, if the rate is about same
+    than there is a stable population.
+    
+1. How many arrays will you now need to store
+all of the creatures in your population?
+
+- I have one vector which a Creature data
+    type.
+    
+2. What methods did you make virtual?
+
+- I have all virtual methods in abstract
+    class since they are common in all
+    livingBeing like alive or not, getters
+    for name, birthRate, etc. Then I have made
+    procreate and actionTaken virtual in
+    creature class.
+    
+3. How do you commonalize the interface to both
+predators and prey (prey eating, predators being
+eaten)?
+
+- I have declared a virtual method in creature class
+    meaning that both would have (prey and predator)
+    same method but with different implementation.
+
+4. Do you now have to worry about a predator
+eating another predator?
+
+- No because if the creature in the list is
+    predator than the target would be a prey
+    and vice versa.
