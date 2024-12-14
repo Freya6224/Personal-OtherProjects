@@ -1,0 +1,23 @@
+/************************************************************************
+*                                                                       *
+*                                                                       *
+* Name: Freya Modi                         CLASS: CSC122-W01            *
+*                                                                       *
+*                                                                       *
+*                                                                       *
+* Project: "Balance in all things"          Activity Level: 4.5         *
+*                   User choose how to enter inputs option: +2          *
+*                                               Total     : 6.5         *
+*                                                                       *
+*   Description:                                                        *
+*                                                                       *
+*                                                                       *
+*   This is project takes user's check's info where user can choose     *
+*   the input method weather from file or from keyboard. Then this      *
+*   check's info whould be used to calculate the total amount of        *
+*   checks, deposits, total balance, new balance (with only cashed      *
+*   checks), and the difference between the new balance and total       *
+*   balance. The info would be stored using the dynamic array as a      *
+*   class object.                                                       *
+*                                                                       *
+* * * * * * * * * * * * * * ** * * * * * * * * ** * * * * ** *** ** * * */

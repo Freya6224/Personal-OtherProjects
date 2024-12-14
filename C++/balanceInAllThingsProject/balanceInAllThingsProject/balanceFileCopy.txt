@@ -1,0 +1,23 @@
+
+Total no of checks: 5
+Total no deposits: 3
+
+Cashed checks:
+Check #120, Amount: $300.40, Cashed: Yes chashed
+Check #438, Amount: $438.60, Cashed: Yes chashed
+Check #506, Amount: $50.50, Cashed: Yes chashed
+
+
+Not cashed checks:
+Check #501, Amount: $50.00, Cashed: No chashed
+Check #503, Amount: $100.20, Cashed: No chashed
+
+Deposit of: $500.01
+Deposit of: $400.10
+Deposit of: $1000.07
+
+Total of all checks: $939.70
+Total of all deposits: $1900.18
+Total balance: $960.48
+New Balance: $1110.68
+The difference: $-150.20
