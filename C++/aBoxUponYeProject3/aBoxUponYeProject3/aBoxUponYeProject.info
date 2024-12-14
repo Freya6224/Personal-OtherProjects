@@ -1,0 +1,25 @@
+/************************************************************************
+*                                                                       *
+*                                                                       *
+* Name: Freya Modi                         CLASS: CSC122-W01            *
+*                                                                       *
+*                                                                       *
+*                                                                       *
+* Project: "A Box Upon Ye"                Activity Level: 5.0           *
+*                               Option of types of frame: +1.5          *
+*                                               Total   : 6.5           *
+*                                                                       *
+*   Description:                                                        *
+*                                                                       *
+*                                                                       *
+*   This project takes a phrase, frame character and justification      *
+*   (left, right, center) from user. Then using the frame character     *
+*   it would create a frame deepenind on the longest word in the        *
+*   frame. Then the words would be placed with the frame depending      *
+*   on the user choice for justification weather they want to place     *
+*   phrase left/right/center of the frame. Then it would print the      *
+*   final results. Added the extra option where user is given with the  *
+*   modified frames from the programmer. If user chooces 1 of 4         *
+*   frametypes than they won't be asked for frame character option.     *
+*                                                                       *
+* * * * * * * * * * * * * * ** * * * * * * * * ** * * * * ** *** ** * * */
